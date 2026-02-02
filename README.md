@@ -148,3 +148,25 @@ From raw sign images, the pipeline produces:
   "clusterSize": 2,
   "isMain": true
 }
+
+---
+
+## How to Re-run the Pipeline and Generate New JSON Files
+
+To generate updated JSON files, follow these steps:
+
+1. Place new or updated cropped sign images into `generating_json/new_structure_data/` following the same folder structure (`sign` / `period`).
+
+2. Run the notebook [`generating_json.ipynb`](generating_json/generating_json.ipynb) from top to bottom.
+
+3. The pipeline will:
+   - retrain (or reuse) the sign classification model,  
+   - regenerate image embeddings,  
+   - recluster sign forms,  
+   - and overwrite the existing JSON outputs.
+
+4. The updated outputs will be written to:  
+   - `generating_json/sign_clustering_paths.json`  
+   - `generating_json/sign_clustering_base64.json`
+
+> This process can be repeated at any time to regenerate the JSON files with new data, updated models, or modified clustering parameters.
