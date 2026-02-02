@@ -135,7 +135,7 @@ From raw sign images, the pipeline produces:
   "isMain": true
 }
 
-**Example path-based JSON entry:**
+**Example Base64-encoded JSON entry:**
 ```json
 {
   "_id": "57b78370-9bcc-41a8-a586-2f87ec2092e5",
