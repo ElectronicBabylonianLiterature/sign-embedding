@@ -134,7 +134,7 @@ From raw sign images, the pipeline produces:
   "clusterSize": 2,
   "isMain": true
 }
-
+```
 **Example Base64-encoded JSON entry:**
 ```json
 {
@@ -148,6 +148,7 @@ From raw sign images, the pipeline produces:
   "clusterSize": 2,
   "isMain": true
 }
+```
 
 ---
 
