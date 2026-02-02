@@ -13,7 +13,7 @@ This repository implements an end-to-end pipeline for generating sign embeddings
   - [Step 7 — Select Representative (Centroid) Images](#step-7---select-representative-centroid-images)
   - [Step 8 — Generate Two Final JSON Outputs](#step-8---generate-two-final-json-outputs)
   - [Final Outcome](#final-outcome)
-- [How to Re-run the Pipeline and generate new JSON files](#how-to-re-run-the-pipeline)
+- [How to Re-run the Pipeline and generate new JSON files](#how-to-re-run-the-pipeline-and-generate-new-json-files)
 
 ---
 
