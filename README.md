@@ -4,18 +4,17 @@ This repository implements an end-to-end pipeline for generating sign embeddings
 
 ## Table of Contents
 - [Generating JSON Files](#generating-json-files)
-  - [Step 1 — Prepare the Dataset](#step-1---prepare-the-dataset)
-  - [Step 2 — Train a Sign Classification Model](#step-2---train-a-sign-classification-model)
-  - [Step 3 — Convert the Model into a Feature Extractor](#step-3---convert-the-model-into-a-feature-extractor)
-  - [Step 4 — Group Images by Sign and Period](#step-4---group-images-by-sign-and-period)
-  - [Step 5 — Cluster Visual Forms](#step-5---cluster-visual-forms)
-  - [Step 6 — Identify Canonical and Variant Forms](#step-6---identify-canonical-and-variant-forms)
-  - [Step 7 — Select Representative (Centroid) Images](#step-7---select-representative-centroid-images)
-  - [Step 8 — Generate Two Final JSON Outputs](#step-8---generate-two-final-json-outputs)
+  - [Step 1 — Prepare the Dataset](#step-1--prepare-the-dataset)
+  - [Step 2 — Train a Sign Classification Model](#step-2--train-a-sign-classification-model)
+  - [Step 3 — Convert the Model into a Feature Extractor](#step-3--convert-the-model-into-a-feature-extractor)
+  - [Step 4 — Group Images by Sign and Period](#step-4--group-images-by-sign-and-period)
+  - [Step 5 — Cluster Visual Forms](#step-5--cluster-visual-forms)
+  - [Step 6 — Identify Canonical and Variant Forms](#step-6--identify-canonical-and-variant-forms)
+  - [Step 7 — Select Representative (Centroid) Images](#step-7--select-representative-centroid-images)
+  - [Step 8 — Generate Two Final JSON Outputs](#step-8--generate-two-final-json-outputs)
   - [Final Outcome](#final-outcome)
-- [How to Re-run the Pipeline and generate new JSON files](#how-to-re-run-the-pipeline-and-generate-new-json-files)
+- [How to Re-run the Pipeline and Generate New JSON Files](#how-to-re-run-the-pipeline-and-generate-new-json-files)
 
----
 
 ## Generating JSON Files
 
