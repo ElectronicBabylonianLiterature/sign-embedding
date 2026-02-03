@@ -18,7 +18,7 @@ This repository implements an end-to-end pipeline for generating sign embeddings
 
 ## Generating JSON Files
 
-**Notebook:** `generating_json.ipynb`  
+**Notebook:** [`generating_json.ipynb`](generating_json.ipynb) 
 
 ### Step 1 — Prepare the Dataset
 - Organize cropped sign images by sign class (folder = sign).  
@@ -157,7 +157,7 @@ To generate updated JSON files, follow these steps:
 
 1. Place new or updated cropped sign images into `generating_json/new_structure_data/` following the same folder structure (`sign` / `period`).
 
-2. Run the notebook [`generating_json.ipynb`](generating_json/generating_json.ipynb) from top to bottom.
+2. Run the notebook [`generating_json.ipynb`](generating_json.ipynb) from top to bottom.
 
 3. The pipeline will:
    - retrain (or reuse) the sign classification model,  
