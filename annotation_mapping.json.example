@@ -1,0 +1,14 @@
+[
+  {
+    "annotationId": "fe424867cb374697be3110157f17f39c",
+    "sign": "0",
+    "period": "Old_Babylonian",
+    "fragment_number": "HS.2087"
+  },
+  {
+    "annotationId": "a1b2c3d4e5f6789012345678",
+    "sign": "1",
+    "period": "Neo-Babylonian",
+    "fragment_number": "NCBT.280"
+  }
+]
